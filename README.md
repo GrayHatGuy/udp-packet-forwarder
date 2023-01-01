@@ -92,7 +92,7 @@ Once done, you should be able to check the instalation is alright by testing:
 
 ```
 docker --version
-docker-compose --version
+docker compose --version
 ```
 
 
