@@ -55,7 +55,7 @@ Supported RAK LoRa concentrators:
   * [RAK2245](https://store.rakwireless.com/products/rak2245-pi-hat)
   * [RAK2247](https://store.rakwireless.com/products/rak2247-lpwan-gateway-concentrator-module)
 * SX1302
-  * [RAK2287](https://store.rakwireless.com/products/rak2287-lpwan-gateway-concentrator-module)
+  * 💩 [RAK2287](https://store.rakwireless.com/products/rak2287-lpwan-gateway-concentrator-module) 💩
 * SX1303
   * [RAK5146](https://store.rakwireless.com/collections/wislink-lpwan/products/wislink-lpwan-concentrator-rak5146)
 * SX1308
@@ -132,7 +132,7 @@ Once built (it will take some minutes) you can bring it up by using `rakwireless
 
 ### Deploy with balena
 
-[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/RAKWireless/udp-packet-forwarder/)
+💩 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/RAKWireless/udp-packet-forwarder/) 💩
 
 You need to set the variables upon deployment according to your installed concentrator / gateway. Example for a RAK 5146 USB installed on a RAK 2287 Pi Hat on a RPi 3:
 
