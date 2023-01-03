@@ -27,9 +27,8 @@ services:
       # Option 1: set the MODEL to the WisGate Developer Gateway model number
       # Option 2: set the MODEL to the WisLink LPWAN model number
       # Option 3: set the CONCENTRATOR directly
-      MODEL: "RAK7371"
       #MODEL: "RAK7248"
-      #MODEL: "RAK5146"
+      MODEL: "RAK5146"
       #CONCENTRATOR: "SX1302"
 
       # When using options 2 or 3 above, you will probably have to specify other features of the module.
