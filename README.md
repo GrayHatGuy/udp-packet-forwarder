@@ -279,6 +279,6 @@ For a USB concentrator you would mount the USB port instead of the SPI port and 
 6. Click `Create gateway`.
 
 
-## Troubleshoothing
+## Trouble shooting
 
 Feel free to introduce issues on this repo and contribute with solutions.
