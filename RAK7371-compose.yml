@@ -27,7 +27,7 @@ services:
       # Option 1: set the MODEL to the WisGate Developer Gateway model number
       # Option 2: set the MODEL to the WisLink LPWAN model number
       # Option 3: set the CONCENTRATOR directly
-      MODEL: "RAK2287"
+      MODEL: "RAK7371"
       #MODEL: "RAK7248"
       #MODEL: "RAK5146"
       #CONCENTRATOR: "SX1302"
@@ -45,7 +45,7 @@ services:
       # than the default ones ("/dev/spidev0.0" for SPI or "/dev/ttyACM0" for USB) 
       # you can define it this way
       #RADIO_DEV: "/dev/spidev0.1"
-      #RADIO_DEV: "/dev/ttyUSB0"
+      RADIO_DEV: "/dev/ttyACM0"
 
       # SPI speed is automatically set depending on the concentrator,
       # but should you have any trouble you can change it like this:
@@ -53,7 +53,7 @@ services:
 
       # Same for the GPS
       # GPS_DEV: "/dev/i2c-1"
-      # GPS_DEV: "/dev/ttyUSB2"
+      GPS_DEV: "/dev/ttyACM1"
 
       # The service will define the Gateway EUI based on a network interface: eth0, wlan0 or usb0.
       # If neither of these exist or you want it to use a different interface you can define the NIC this way:
@@ -67,7 +67,7 @@ services:
       #TTN_REGION: "au1"
 
       # Or you can set a completely different LNS server.
-      SERVER_HOST: 192.168.0.153
+      SERVER_HOST: 192.168.0.106
       SERVER_PORT: 1700
 
       # The default frequency band is EU868, 
@@ -77,8 +77,6 @@ services:
       # If you want the gateway to report a specific lat/lon/alt you can set them this way:
       #GPS_LATITUDE: 41.42
       #GPS_LONGITUDE: 2.12
-      GPS_ALTITUDE: 1000
-
-
+      GPS_ALTITUDE: 33
 
 
