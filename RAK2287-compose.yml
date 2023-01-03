@@ -72,7 +72,7 @@ services:
 
       # The default frequency band is EU868, 
       # if your module uses a different band you have to select it here:
-      BAND: "US915"
+      BAND: "us_902_928"
 
       # If you want the gateway to report a specific lat/lon/alt you can set them this way:
       #GPS_LATITUDE: 41.42
