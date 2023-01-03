@@ -61,6 +61,9 @@ Supported RAK LoRa concentrators:
 * SX1308
   * [RAK2287](https://store.rakwireless.com/products/rak2287-lpwan-gateway-concentrator-module)
   * RAK2246
+  
+ ![Uploading image.png…](z)
+
 
 > **NOTE**: This project focuses on RAKwireless products but products from other manufacturers should also work. You will have to provide the some information to configure them properly, like concentrator type, interface type, reset GPIO,...
 
