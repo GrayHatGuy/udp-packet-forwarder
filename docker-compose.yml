@@ -62,10 +62,10 @@ services:
 
       # The default LNS server is the European TTN server. 
       # If you still want to use TTN but a different region you can set it this way:
-      #TTN_REGION: "au1"
+      #TTN_REGION: "us1"
 
       # Or you can set a completely different LNS server.
-      SERVER_HOST: localhost
+      SERVER_HOST: 192.168.0.106
       SERVER_PORT: 1700
 
       # The default frequency band is EU868, 
@@ -73,7 +73,7 @@ services:
       BAND: "us_902_928"
 
       # If you want the gateway to report a specific lat/lon/alt you can set them this way:
-      #GPS_LATITUDE: 41.42
-      #GPS_LONGITUDE: 2.12
-      #GPS_ALTITUDE: 33
+      GPS_LATITUDE: 55.7520
+      GPS_LONGITUDE: 37.6175
+      GPS_ALTITUDE: 3300
 
