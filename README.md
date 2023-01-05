@@ -135,7 +135,7 @@ Once built (it will take some minutes) you can bring it up by using `rakwireless
 
 ### Deploy with balena
 
-💩 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/RAKWireless/udp-packet-forwarder/) 💩
+💩 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/grayhatguy/udp-packet-forwarder/) 💩
 
 You need to set the variables upon deployment according to your installed concentrator / gateway. Example for a RAK 5146 USB installed on a RAK 2287 Pi Hat on a RPi 3:
 
