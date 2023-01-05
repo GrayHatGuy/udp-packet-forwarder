@@ -65,7 +65,7 @@ services:
       #TTN_REGION: "au1"
 
       # Or you can set a completely different LNS server.
-      SERVER_HOST: 192.168.0.153
+      SERVER_HOST: localhost
       SERVER_PORT: 1700
 
       # The default frequency band is EU868, 
